@@ -123,6 +123,14 @@ async function start() {
       { command: 'start', description: 'Open Kilo Piemonte menu' },
       { command: 'menu', description: 'Show all options' }
     ]});
+    await api('setChatMenuButton', {
+      menu_button: {
+        type: 'web_app',
+        text: 'Negozio',
+        web_app: { url: 'https://super-squirrel-3ec565.netlify.app' }
+      }
+    });
+    console.log('✅ Menu button set');
     console.log('✅ Polling started...');
     poll();
   } catch(e) {
