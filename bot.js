@@ -10,6 +10,7 @@ Choose an option below 👇`;
 
 const KEYBOARD = {
   inline_keyboard: [
+    [{ text: '🛒 Negozio', web_app: { url: 'https://super-squirrel-3ec565.netlify.app' } }],
     [{ text: '📢 Channel', url: 'https://t.me/+UownuT8UDw8xMzFk' }],
     [
       { text: '💬 Telegram', url: 'https://t.me/Kilopiemonte' },
