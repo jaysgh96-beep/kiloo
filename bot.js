@@ -4,7 +4,7 @@ const TOKEN = '8676412822:AAGLEQJ65PJmGaOr-giwVDIFA3I4SUmONKw';
 
 const WELCOME = `🦁 *Welcome to Kilo Piemonte Gourmet*
 
-Premium quality — straight from the source.
+Premium quality, straight from the source.
 
 Choose an option below 👇`;
 
